@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vici Studio</title>
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">          
+			
+			<!-- jQuery -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+		  
+			<!-- nanogallery2 -->
+			<link  href="https://unpkg.com/nanogallery2@2.2.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+			<script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.2.0/dist/jquery.nanogallery2.min.js"></script>
+			
+</head>
+<body>
+	<div class="header">
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home"></i> General</a></li>
+				<li><a href="#"><i class="fa fa-shopping-cart"></i> Photo</a></li>
+				<li><a href="portfolio.html"><i class="fa fa-cogs"></i> Portfolio</a></li>
+				<li><a href="#"><i class="fa fa-th-list"></i> Contacts</a></li>
+				<li><a href="#"><i class="fa fa-envelope-open"></i> About</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="content">
+		<h1>Victor Avtandilyan's dope Photo Studio<br>We photograph your beautiful ass<br>Հայերեն տեկստ կոնտենտ</h1>
+	</div>
+
+<h1>gallery made with nanogallery2</h1>
+
+			  <!-- ### position of the gallery ### -->
+			  <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+			
+			  <script>
+				 jQuery(document).ready(function () {
+
+					jQuery("#nanogallery2").nanogallery2( {
+						<!-- ### gallery settings ### -->
+						thumbnailHeight:  200,
+						thumbnailWidth:   250,
+						itemsBaseURL:     'img/portfolio-img/',
+						
+						<!-- ### gallery content ### -->
+						items: [
+							{ src: '1.jpg', srct: '1.jpg', title: '' },
+							{ src: '2.jpg', srct: '2.jpg', title: '' },
+							{ src: '3.jpg', srct: '3.jpg', title: '' },
+							{ src: '4.jpg', srct: '4.jpg', title: '' },
+							{ src: '5.jpg', srct: '5.jpg', title: '' },
+							{ src: '6.jpg', srct: '6.jpg', title: '' },
+							{ src: '7.jpg', srct: '7.jpg', title: '' },
+							{ src: '8.jpg', srct: '8.jpg', title: '' },
+							]
+					  });
+				  });
+			  </script>
+
+</body>
+</html>
